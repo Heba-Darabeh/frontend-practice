@@ -68,8 +68,8 @@ body {
 
 .content {
   max-width: 1564px;
-  padding: 8px 16px !important;
   margin: 0;
+  padding: 0.01em 16px;
 }
 
 .content__projects-section {
@@ -228,4 +228,8 @@ body {
 .contact__button:hover {
   color: #000 !important;
   background-color: #ccc !important;
+}
+
+.image-container {
+  padding: 0 16px;
 }
