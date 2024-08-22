@@ -8,6 +8,31 @@ body {
   line-height: 1.5;
 }
 
+@media (max-width: 600px) {
+  .hide-small {
+    display: none !important;
+  }
+
+  .content__projects-first-row,
+  .content__projects-second-row {
+    flex-wrap: wrap;
+  }
+
+  .content__about-contacts {
+    flex-wrap: wrap;
+  }
+
+  .content__about-item {
+    margin-bottom: 8px;
+  }
+}
+@media (max-width: 768px) {
+  .content__projects-first-row,
+  .content__projects-second-row {
+    justify-content: space-around;
+  }
+}
+
 .header__nav {
   background-color: #ffffff;
   padding: 8px 16px !important;
@@ -99,7 +124,7 @@ body {
 
 .content__projects-item {
   margin-bottom: 16px !important;
-  width: 290px;
+  width: 100%;
 }
 
 .content__projects-box {
